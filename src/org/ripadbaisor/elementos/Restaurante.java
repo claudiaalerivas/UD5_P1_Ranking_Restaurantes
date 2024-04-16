@@ -1,5 +1,7 @@
 package org.ripadbaisor.elementos;
 
+import java.lang.reflect.Array;
+
 public class Restaurante {
   private String nombre = "";
   private String localizacion = "";
