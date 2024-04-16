@@ -11,7 +11,12 @@ public class Gestor {
 
   public static void aniadirRestaurante(){
     String aniadirNombre = JOptionPane.showInputDialog("Introduce el Nombre del restaurante");
-    Restaurante restaurante = new Restaurante(aniadirNombre, null, null, 0);
+    String aniadirLocalizacion = JOptionPane.showInputDialog("Introduce el Nombre del restaurante");
+    String aniadirHorario = JOptionPane.showInputDialog("Introduce el Nombre del restaurante");
+    String aniadirPuntuacion = JOptionPane.showInputDialog("Introduce el Nombre del restaurante");
+    Float puntuacion = Float.parseFloat(aniadirPuntuacion);
+    
+    Restaurante restaurante = new Restaurante(aniadirNombre, aniadirLocalizacion, aniadirHorario, puntuacion);
     Gestor.restaurantes.add(restaurante);
   }
   public static void editarRestaurante(){
