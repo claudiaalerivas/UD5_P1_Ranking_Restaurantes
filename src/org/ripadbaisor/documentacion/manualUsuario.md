@@ -29,6 +29,11 @@ Aqui Introducimos la puntuacion
 
 ![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/puntuacion.png)
 
+
+Si el no hay problemas nos mostrara este mensaje
+
+
+![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/finalizarAniadirRestaurante.png)
 Errores:
 
 
@@ -88,3 +93,28 @@ Restaurante no encontrado, es decir el nombre que indico esta mal
 
 
 ![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/errorNoEncontrarRestaurante.png)
+
+
+# Mostrar Restaurantes
+
+Los Restaurantes se mostraran en ventas emergentes segun su ranking, es decir, saldran primero los de mejor ranking
+
+![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/mostrarRestaurantesEjemplo.png)
+
+
+# Eliminar Restaurante
+
+Introducimos el nombre del restaurante a que queremos eliminar
+
+
+![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/eliminarRestauranteNombreValidacion.png)
+
+ERROR: 
+
+Restaurante no encontrado
+
+
+![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/errorNoEncontrarRestaurante.png)
+
+
+
