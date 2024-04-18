@@ -66,7 +66,7 @@ public class Gestor {
           restaurantes.get(index).setPuntuacion(puntuacionEditada);
           JOptionPane.showMessageDialog(null, "Restaurante actualizado correctamente.");
         } else {
-          JOptionPane.showMessageDialog(null,"Ups! Hubo un ERROR \nRestaurante no Actualizado Correctamente. \nSe guardo la infromacion anterior desde que registro la informacion de manera inadecuada", "Error", JOptionPane.ERROR_MESSAGE);
+          JOptionPane.showMessageDialog(null,"Ups! Hubo un ERROR \nRestaurante no Actualizado Correctamente. \nSe guardo la infromacion anterior desde que surgio el error", "Error", JOptionPane.ERROR_MESSAGE);
         }
       }
     }
