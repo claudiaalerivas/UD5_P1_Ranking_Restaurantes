@@ -1,6 +1,6 @@
 package org.ripadbaisor.elementos;
 
-import java.lang.reflect.Array;
+// import java.lang.reflect.Array;
 
 public class Restaurante {
   private String nombre = "";
@@ -45,6 +45,12 @@ public class Restaurante {
 
   public void setPuntuacion(float puntuacion) {
     this.puntuacion = puntuacion;
+  }
+
+  @Override
+  public String toString() {
+    return "Nombre del Restaurante: " + nombre + ", Direccion: " + localizacion + ", Horario:" + horario + ", Puntuacion:"
+        + puntuacion;
   }
 
   
