@@ -2,9 +2,7 @@ package org.ripadbaisor.gestor;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 import javax.swing.JOptionPane;
-
 import org.ripadbaisor.elementos.Restaurante;
 
 public class Gestor {
@@ -102,18 +100,18 @@ public class Gestor {
   }
   public static void eliminarRestaurante(){
     String nombreEliminarRestaurante = JOptionPane.showInputDialog("Introduce el Nombre del Restaurante a Eliminar");
-    int index = -1;
+    int indice = -1;
     // Obtenemos el indice del restaurante, si no lo encuentra se queda en -1
     for(int i = 0; i < restaurantes.size(); i++){
       if (restaurantes.get(i).getNombre().contains(nombreEliminarRestaurante)) {
-        index = i;
+        indice = i;
         break;
       }
     }
-    if (index == -1 && nombreEliminarRestaurante == null){
+    if (indice == -1 && nombreEliminarRestaurante == null){
       JOptionPane.showMessageDialog(null, "Restaurante no encontrado.");
     } else {
-      restaurantes.remove(index);
+      restaurantes.remove(indice);
       JOptionPane.showMessageDialog(null, "Restaurante eliminado.");
     }
   }

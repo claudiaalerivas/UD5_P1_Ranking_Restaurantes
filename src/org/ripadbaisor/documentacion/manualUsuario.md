@@ -94,6 +94,7 @@ Restaurante no encontrado, es decir el nombre que indico esta mal
 
 ![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/errorNoEncontrarRestaurante.png)
 
+Ademas si ingresamos mal el horario o la puntuacion nos saldra errores como el punto anterior
 
 # Mostrar Restaurantes
 
@@ -108,6 +109,10 @@ Introducimos el nombre del restaurante a que queremos eliminar
 
 
 ![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/eliminarRestauranteNombreValidacion.png)
+
+Si introducimos bien el nombre a eliminar 
+
+![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/restauranteEliminado.png)
 
 ERROR: 
 
