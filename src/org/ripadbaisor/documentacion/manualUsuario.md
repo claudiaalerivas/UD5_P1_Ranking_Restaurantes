@@ -121,5 +121,5 @@ Restaurante no encontrado
 
 ![Imagen Menu](/src/org/ripadbaisor/documentacion/imagenes/errorNoEncontrarRestaurante.png)
 
-
+[ <- Volver](/README.md)
 
